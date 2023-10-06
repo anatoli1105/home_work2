@@ -35,10 +35,10 @@ public class Main {
         float valueFloat2=27.12F;
         long  valueLong2=987678965549L;
         double valueDouble2=2.786;
-        short shortValue=569;
-        int intValue=-159;
-        long longValues=27897L;
-        byte byteValue=67;
+        short valueShort2=569;
+        int valueInt2=-159;
+        long valuesLong2=27897L;
+        byte valueByte2=67;
         /*в консоль ,вроде, не надо выводить.*/
         System.out.println("=====================================================");
         /*Три школьных учителя, Людмила Павловна, Анна Сергеевна и Екатерина Андреевна, ведут три класса.
@@ -138,7 +138,38 @@ public class Main {
                 "\na если будет терять по "+wightInDayGr+"грам в день," +
                 "то на похудание уйдет "+countDays1+" дней");
         System.out.println("=====================================================");
+        /*Задача 8
+Представим, что мы работаем в большой компании, штат которой состоит из нескольких сотен сотрудников.
+В компании есть правило: чем дольше сотрудник работает в компании, тем ценнее он для бизнеса.
+ Поэтому сотрудники, которые работают в компании дольше 3 лет, получают повышение зарплаты раз в год.
+ Каждый год повышение составляет 10% от текущей зарплаты.
 
+К вам пришел руководитель с задачей автоматизировать повышение зарплаты,
+а также провести расчет для следующих сотрудников:
+
+Маша получает 67 760 рублей в месяц.
+Денис получает 83 690 рублей в месяц.
+Кристина получает 76 230 рублей в месяц.
+Каждому нужно увеличить зарплату на 10% от текущей месячной.
+Дополнительно руководитель попросил посчитать разницу между годовым доходом с нынешней зарплатой и после повышения.
+
+Посчитайте, сколько будет получать каждый из сотрудников,
+ а также разницу между годовым доходом до и после повышения.*/
+        int salaryWorkerM=67760;
+        int salaryWorkerD=83690;
+        int salaryWorkerK=76230;
+        int newSalaryWorkerM=salaryWorkerM/10*11;
+        int newSalaryWorkerD=salaryWorkerD/10*11;
+        int newSalaryWorkerK=salaryWorkerK/10*11;
+        int differenceSalaryM=newSalaryWorkerM-salaryWorkerM;
+        int differenceSalaryD=newSalaryWorkerD-salaryWorkerD;
+        int differenceSalaryK=newSalaryWorkerK-salaryWorkerK;
+        System.out.println("Маша получает "+ salaryWorkerM+" рублей в месяц.\n"+
+                "после повышения будет ->"+newSalaryWorkerM+",разница составит->"+differenceSalaryM+
+                "\n Денис получает " +salaryWorkerD+" рублей в месяц.\n"+
+                 "после повышения будет ->"+newSalaryWorkerD+",разница составит->"+differenceSalaryD+
+                "\nКристина получает"+salaryWorkerK+" рублей в месяц.\n"+
+                "после повышения будет ->"+newSalaryWorkerK+",разница составит->"+differenceSalaryK);
 
     }
 }

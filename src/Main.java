@@ -9,18 +9,18 @@ public class Main {
 Название переменных может быть любым, но если состоит из двух слов и более, должно соответствовать правилу camelCase.
 
 Выведите в консоль значение каждой переменной в формате «Значение переменной … с типом … равно …».*/
-        int valueInt=123;
-        byte valueByte=5;
-        short valueShort=1;
-        long valueLong=-666L;
-        float valueFloat=3.1F;
-        double valueDouble=3.14;
-        System.out.println("Значение переменной valueInt, с типом int, = "+valueInt+
-                              "\nЗначение переменной valueByte, с типом byte, = "+valueByte+
-                              "\nЗначение переменной valueSort, с типом short, = "+valueShort+
-                               "\nЗначение переменной valueLong, с типом long, = "+valueLong+
-                               "\nЗначение переменной valueFloat, с типом float = "+valueFloat+
-                                "\nЗначение переменной valueDooble, с типом dooble, = "+valueDouble);
+        int valueInt = 123;
+        byte valueByte = 5;
+        short valueShort = 1;
+        long valueLong = -666L;
+        float valueFloat = 3.1F;
+        double valueDouble = 3.14;
+        System.out.println("Значение переменной valueInt, с типом int, = " + valueInt +
+                "\nЗначение переменной valueByte, с типом byte, = " + valueByte +
+                "\nЗначение переменной valueSort, с типом short, = " + valueShort +
+                "\nЗначение переменной valueLong, с типом long, = " + valueLong +
+                "\nЗначение переменной valueFloat, с типом float = " + valueFloat +
+                "\nЗначение переменной valueDooble, с типом dooble, = " + valueDouble);
         System.out.println("==================================================");
         /*Задача 2
 Ниже дан список различных значений. Инициализируйте переменные, используйте изученные ранее типы переменных.
@@ -32,13 +32,13 @@ public class Main {
 -159
 27897
 67  */
-        float valueFloat2=27.12F;
-        long  valueLong2=987678965549L;
-        double valueDouble2=2.786;
-        short valueShort2=569;
-        int valueInt2=-159;
-        long valuesLong2=27897L;
-        byte valueByte2=67;
+        float valueFloat2 = 27.12F;
+        long valueLong2 = 987678965549L;
+        double valueDouble2 = 2.786;
+        short valueShort2 = 569;
+        int valueInt2 = -159;
+        long valuesLong2 = 27897L;
+        byte valueByte2 = 67;
         /*в консоль ,вроде, не надо выводить.*/
         System.out.println("=====================================================");
         /*Три школьных учителя, Людмила Павловна, Анна Сергеевна и Екатерина Андреевна, ведут три класса.
@@ -47,13 +47,13 @@ public class Main {
         достанется листов каждому ученику.
         Результат задачи выведите в консоль в формате: «На каждого ученика рассчитано … листов бумаги».*/
 
-        int studentsClassA=23;
-        int studentsClassB=27;
-        int studentsClassG=30;
-        int countSheetsPaper=480;
-        int countStudents=studentsClassA+studentsClassB+studentsClassG;
-        int countSheetsForStudent=countSheetsPaper/countStudents;
-        System.out.println("На каждого ученика рассчитано "+countSheetsForStudent+" листов бумаги");
+        int studentsClassA = 23;
+        int studentsClassB = 27;
+        int studentsClassG = 30;
+        int countSheetsPaper = 480;
+        int countStudents = studentsClassA + studentsClassB + studentsClassG;
+        int countSheetsForStudent = countSheetsPaper / countStudents;
+        System.out.println("На каждого ученика рассчитано " + countSheetsForStudent + " листов бумаги");
         System.out.println("=====================================================");
         /*Задача 4
 Производительность машины для изготовления бутылок — 16 бутылок за 2 минуты.
@@ -67,14 +67,14 @@ public class Main {
 если она работает без перерыва заданный промежуток времени.
 
 Результаты подсчетов выведите в консоль в формате: «За … машина произвела … штук бутылок».*/
-        byte countBottles=16;
-        int bottleMinetes=countBottles/2;
-        int bottleDay=bottleMinetes*1440;
-        long bottleMonth=bottleMinetes*43200L;
-        System.out.println("за "+ 20 +" мин. машины для изготовления бутылок производит - "+bottleMinetes*20+" шт"+
-        "\nЗа сутки машина для изготовления бутылок производит "+bottleDay+"шт." +
-          "\nза три дня машина по изготовлению бутылок производит"+bottleDay*3+"шт."+
-        "\nза месяц(30 дней)машина по изготовлению бутылок производит"+bottleMonth+"шт.");
+        byte countBottles = 16;
+        int bottleMinetes = countBottles / 2;
+        int bottleDay = bottleMinetes * 1440;
+        long bottleMonth = bottleMinetes * 43200L;
+        System.out.println("за " + 20 + " мин. машины для изготовления бутылок производит - " + bottleMinetes * 20 + " шт" +
+                "\nЗа сутки машина для изготовления бутылок производит " + bottleDay + "шт." +
+                "\nза три дня машина по изготовлению бутылок производит" + bottleDay * 3 + "шт." +
+                "\nза месяц(30 дней)машина по изготовлению бутылок производит" + bottleMonth + "шт.");
         System.out.println("=====================================================");
 
 
@@ -84,15 +84,15 @@ public class Main {
         Выведите результат задачи в консоль в формате: «В школе, где … классов,
         нужно … банок белой краски и … банок коричневой краски».
         * */
-        int countPot=120;
-        int whitePotForClass=2;
-        int brownPotForClass=4;
-        int countPotForClass=whitePotForClass+brownPotForClass;
-        int countClass=countPot/countPotForClass;
-        int countPotWhite=countClass*whitePotForClass;
-        int countPotBrown=countClass*brownPotForClass;
-        System.out.println("В школе, где "+countClass+" классов,нужно "+
-                countPotWhite+" банок белой краски и "+countPotBrown+" банок коричневой краски");
+        int countPot = 120;
+        int whitePotForClass = 2;
+        int brownPotForClass = 4;
+        int countPotForClass = whitePotForClass + brownPotForClass;
+        int countClass = countPot / countPotForClass;
+        int countPotWhite = countClass * whitePotForClass;
+        int countPotBrown = countClass * brownPotForClass;
+        System.out.println("В школе, где " + countClass + " классов,нужно " +
+                countPotWhite + " банок белой краски и " + countPotBrown + " банок коричневой краски");
         System.out.println("=====================================================");
         /*Задача 6
 Спортсмены следят за своим весом и тщательно относятся к тому, что и сколько они съедают.
@@ -108,14 +108,14 @@ public class Main {
 Подсчитайте вес (количество граммов) такого спортзавтрака, а затем переведите его в килограммы.
 
 Результат в граммах и килограммах напечатайте в консоль.*/
-        int  bananaWightGram=80;
-        int milkWightGram=105;
-        int plombirWightGram=100;
-        int eggsWightGram=70;
-        int breakfastWightGram=(bananaWightGram*5)+(milkWightGram*2)+(plombirWightGram*2)+(eggsWightGram*4);
-        float breakfastWightKilo=breakfastWightGram/1000F;
-        System.out.println("вес завтрака составляет ->"+breakfastWightGram+"грамм,это "
-                +breakfastWightKilo+" килограмм");
+        int bananaWightGram = 80;
+        int milkWightGram = 105;
+        int plombirWightGram = 100;
+        int eggsWightGram = 70;
+        int breakfastWightGram = (bananaWightGram * 5) + (milkWightGram * 2) + (plombirWightGram * 2) + (eggsWightGram * 4);
+        float breakfastWightKilo = breakfastWightGram / 1000F;
+        System.out.println("вес завтрака составляет ->" + breakfastWightGram + "грамм,это "
+                + breakfastWightKilo + " килограмм");
         System.out.println("=====================================================");
         /*Задача 7
 Правила соревнований обновились, и спортсмену, чтобы оставаться в
@@ -124,19 +124,19 @@ public class Main {
 Посчитайте, сколько дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм,
 а сколько — если каждый день будет худеть на 500 грамм.
 Посчитайте, сколько может потребоваться дней в среднем, чтобы добиться результата похудения.*/
-        int excessWightKilo=7;
-        int wightInDayGram=250;
-        float wightInDayKilo=wightInDayGram/1000F;
-        float countDay=excessWightKilo/wightInDayKilo;
-        int countDay1=(int)countDay;
-        int wightInDayGr=500;
-        float wightInDayKg=wightInDayGr/1000F;
-        float countDays=excessWightKilo/wightInDayKg;
-        int countDays1=(int)countDays;
-        System.out.println(countDay1+" дней уйдет на похудение," +
-                " если спортсмен будет терять каждый день по "+wightInDayGram+" грамм," +
-                "\na если будет терять по "+wightInDayGr+"грам в день," +
-                "то на похудание уйдет "+countDays1+" дней");
+        int excessWightKilo = 7;
+        int wightInDayGram = 250;
+        float wightInDayKilo = wightInDayGram / 1000F;
+        float countDay = excessWightKilo / wightInDayKilo;
+        int countDay1 = (int) countDay;
+        int wightInDayGr = 500;
+        float wightInDayKg = wightInDayGr / 1000F;
+        float countDays = excessWightKilo / wightInDayKg;
+        int countDays1 = (int) countDays;
+        System.out.println(countDay1 + " дней уйдет на похудение," +
+                " если спортсмен будет терять каждый день по " + wightInDayGram + " грамм," +
+                "\na если будет терять по " + wightInDayGr + "грам в день," +
+                "то на похудание уйдет " + countDays1 + " дней");
         System.out.println("=====================================================");
         /*Задача 8
 Представим, что мы работаем в большой компании, штат которой состоит из нескольких сотен сотрудников.
@@ -155,21 +155,21 @@ public class Main {
 
 Посчитайте, сколько будет получать каждый из сотрудников,
  а также разницу между годовым доходом до и после повышения.*/
-        int salaryWorkerM=67760;
-        int salaryWorkerD=83690;
-        int salaryWorkerK=76230;
-        int newSalaryWorkerM=salaryWorkerM/10*11;
-        int newSalaryWorkerD=salaryWorkerD/10*11;
-        int newSalaryWorkerK=salaryWorkerK/10*11;
-        int differenceSalaryM=newSalaryWorkerM-salaryWorkerM;
-        int differenceSalaryD=newSalaryWorkerD-salaryWorkerD;
-        int differenceSalaryK=newSalaryWorkerK-salaryWorkerK;
-        System.out.println("Маша получает "+ salaryWorkerM+" рублей в месяц.\n"+
-                "после повышения будет ->"+newSalaryWorkerM+",разница составит->"+differenceSalaryM+
-                "\n Денис получает " +salaryWorkerD+" рублей в месяц.\n"+
-                 "после повышения будет ->"+newSalaryWorkerD+",разница составит->"+differenceSalaryD+
-                "\nКристина получает"+salaryWorkerK+" рублей в месяц.\ns"+
-                "после повышения будет ->"+newSalaryWorkerK+",разница составит->"+differenceSalaryK);
+        int salaryWorkerM = 67760;
+        int salaryWorkerD = 83690;
+        int salaryWorkerK = 76230;
+        int newSalaryWorkerM = salaryWorkerM / 10 * 11;
+        int newSalaryWorkerD = salaryWorkerD / 10 * 11;
+        int newSalaryWorkerK = salaryWorkerK / 10 * 11;
+        int differenceSalaryM = newSalaryWorkerM - salaryWorkerM;
+        int differenceSalaryD = newSalaryWorkerD - salaryWorkerD;
+        int differenceSalaryK = newSalaryWorkerK - salaryWorkerK;
+        System.out.println("Маша получает " + salaryWorkerM + " рублей в месяц.\n" +
+                "после повышения будет ->" + newSalaryWorkerM + ",разница составит->" + differenceSalaryM +
+                "\n Денис получает " + salaryWorkerD + " рублей в месяц.\n" +
+                "после повышения будет ->" + newSalaryWorkerD + ",разница составит->" + differenceSalaryD +
+                "\nКристина получает" + salaryWorkerK + " рублей в месяц.\ns" +
+                "после повышения будет ->" + newSalaryWorkerK + ",разница составит->" + differenceSalaryK);
 
     }
 }

@@ -168,7 +168,7 @@ public class Main {
                 "после повышения будет ->"+newSalaryWorkerM+",разница составит->"+differenceSalaryM+
                 "\n Денис получает " +salaryWorkerD+" рублей в месяц.\n"+
                  "после повышения будет ->"+newSalaryWorkerD+",разница составит->"+differenceSalaryD+
-                "\nКристина получает"+salaryWorkerK+" рублей в месяц.\n"+
+                "\nКристина получает"+salaryWorkerK+" рублей в месяц.\ns"+
                 "после повышения будет ->"+newSalaryWorkerK+",разница составит->"+differenceSalaryK);
 
     }
